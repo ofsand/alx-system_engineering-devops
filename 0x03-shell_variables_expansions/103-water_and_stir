@@ -1,5 +1,2 @@
 #!/bin/bash
-
-WATER=$((WATER + STIR))
-
-echo "$WATER"
+echo $((WATER + STIR))
